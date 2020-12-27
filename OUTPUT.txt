@@ -1,0 +1,452 @@
+C:\Users\Wenjie\Downloads>py DVR.py
+Please enter your file name: test.txt
+------------------------------
+Round 1:A
+Current DV matrix = {'B': 2, 'E': 1, 'A': 0, 'C': 999, 'D': 999}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV matrix at node B = {'A': 2, 'C': 5, 'B': 0, 'D': 999, 'E': 3}
+
+Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+New DV matrix at node E = {'A': 1, 'D': 1, 'B': 3, 'C': 999, 'E': 0}
+
+------------------------------
+Round 2:B
+Current DV matrix = {'A': 2, 'C': 5, 'B': 0, 'D': 999, 'E': 3}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+New DV matrix at node A = {'B': 2, 'E': 1, 'A': 0, 'C': 7, 'D': 999}
+
+Sending DV to node C
+Node C received DV from B
+Updating DV matrix at node C
+New DV matrix at node C = {'B': 5, 'D': 4, 'A': 7, 'C': 0, 'E': 8}
+
+------------------------------
+Round 3:C
+Current DV matrix = {'B': 5, 'D': 4, 'A': 7, 'C': 0, 'E': 8}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from C
+Updating DV matrix at node B
+New DV matrix at node B = {'A': 2, 'C': 5, 'B': 0, 'D': 9, 'E': 3}
+
+Sending DV to node D
+Node D received DV from C
+Updating DV matrix at node D
+New DV matrix at node D = {'C': 4, 'E': 1, 'A': 11, 'B': 9, 'D': 0}
+
+------------------------------
+Round 4:D
+Current DV matrix = {'C': 4, 'E': 1, 'A': 11, 'B': 9, 'D': 0}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node C
+Node C received DV from D
+Updating DV matrix at node C
+New DV matrix at node C = {'B': 5, 'D': 4, 'A': 7, 'C': 0, 'E': 5}
+
+Sending DV to node E
+Node E received DV from D
+Updating DV matrix at node E
+New DV matrix at node E = {'A': 1, 'D': 1, 'B': 3, 'C': 5, 'E': 0}
+
+------------------------------
+Round 5:E
+Current DV matrix = {'A': 1, 'D': 1, 'B': 3, 'C': 5, 'E': 0}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from E
+Updating DV matrix at node A
+New DV matrix at node A = {'B': 2, 'E': 1, 'A': 0, 'C': 6, 'D': 2}
+
+Sending DV to node D
+Node D received DV from E
+Updating DV matrix at node D
+New DV matrix at node D = {'C': 4, 'E': 1, 'A': 2, 'B': 4, 'D': 0}
+
+------------------------------
+Round 6:A
+Current DV matrix = {'B': 2, 'E': 1, 'A': 0, 'C': 6, 'D': 2}
+Last DV matrix = {'B': 2, 'E': 1, 'A': 0, 'C': 999, 'D': 999}
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV matrix at node B = {'A': 2, 'C': 5, 'B': 0, 'D': 4, 'E': 3}
+
+Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+No change in DV at node E
+
+------------------------------
+Round 7:B
+Current DV matrix = {'A': 2, 'C': 5, 'B': 0, 'D': 4, 'E': 3}
+Last DV matrix = {'A': 2, 'C': 5, 'B': 0, 'D': 999, 'E': 3}
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+No change in DV at node A
+
+Sending DV to node C
+Node C received DV from B
+Updating DV matrix at node C
+No change in DV at node C
+
+------------------------------
+Round 8:C
+Current DV matrix = {'B': 5, 'D': 4, 'A': 7, 'C': 0, 'E': 5}
+Last DV matrix = {'B': 5, 'D': 4, 'A': 7, 'C': 0, 'E': 8}
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from C
+Updating DV matrix at node B
+No change in DV at node B
+
+Sending DV to node D
+Node D received DV from C
+Updating DV matrix at node D
+No change in DV at node D
+
+------------------------------
+Round 9:D
+Current DV matrix = {'C': 4, 'E': 1, 'A': 2, 'B': 4, 'D': 0}
+Last DV matrix = {'C': 4, 'E': 1, 'A': 11, 'B': 9, 'D': 0}
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node C
+Node C received DV from D
+Updating DV matrix at node C
+New DV matrix at node C = {'B': 5, 'D': 4, 'A': 6, 'C': 0, 'E': 5}
+
+Sending DV to node E
+Node E received DV from D
+Updating DV matrix at node E
+No change in DV at node E
+
+------------------------------
+Round 10:E
+Current DV matrix = {'A': 1, 'D': 1, 'B': 3, 'C': 5, 'E': 0}
+Last DV matrix = {'A': 1, 'D': 1, 'B': 3, 'C': 5, 'E': 0}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node A
+Node A received DV from E
+Updating DV matrix at node A
+No change in DV at node A
+
+Sending DV to node D
+Node D received DV from E
+Updating DV matrix at node D
+No change in DV at node D
+
+------------------------------
+Round 11:A
+Current DV matrix = {'B': 2, 'E': 1, 'A': 0, 'C': 6, 'D': 2}
+Last DV matrix = {'B': 2, 'E': 1, 'A': 0, 'C': 6, 'D': 2}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node B
+Node B received DV from A
+Updating DV matrix at node B
+No change in DV at node B
+
+Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+No change in DV at node E
+
+------------------------------
+Round 12:B
+Current DV matrix = {'A': 2, 'C': 5, 'B': 0, 'D': 4, 'E': 3}
+Last DV matrix = {'A': 2, 'C': 5, 'B': 0, 'D': 4, 'E': 3}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+No change in DV at node A
+
+Sending DV to node C
+Node C received DV from B
+Updating DV matrix at node C
+No change in DV at node C
+
+------------------------------
+Round 13:C
+Current DV matrix = {'B': 5, 'D': 4, 'A': 6, 'C': 0, 'E': 5}
+Last DV matrix = {'B': 5, 'D': 4, 'A': 7, 'C': 0, 'E': 5}
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from C
+Updating DV matrix at node B
+No change in DV at node B
+
+Sending DV to node D
+Node D received DV from C
+Updating DV matrix at node D
+No change in DV at node D
+
+------------------------------
+Round 14:D
+Current DV matrix = {'C': 4, 'E': 1, 'A': 2, 'B': 4, 'D': 0}
+Last DV matrix = {'C': 4, 'E': 1, 'A': 2, 'B': 4, 'D': 0}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node C
+Node C received DV from D
+Updating DV matrix at node C
+No change in DV at node C
+
+Sending DV to node E
+Node E received DV from D
+Updating DV matrix at node E
+No change in DV at node E
+
+------------------------------
+Round 15:E
+Current DV matrix = {'A': 1, 'D': 1, 'B': 3, 'C': 5, 'E': 0}
+Last DV matrix = {'A': 1, 'D': 1, 'B': 3, 'C': 5, 'E': 0}
+Updated from last DV matrix or the same? Not update
+
+Node A received DV from E
+Sending DV to node A
+Updating DV matrix at node A
+No change in DV at node A
+
+Sending DV to node D
+Node D received DV from E
+Updating DV matrix at node D
+No change in DV at node D
+
+------------------------------
+Round 16:A
+Current DV matrix = {'B': 2, 'E': 1, 'A': 0, 'C': 6, 'D': 2}
+Last DV matrix = {'B': 2, 'E': 1, 'A': 0, 'C': 6, 'D': 2}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node B
+Node B received DV from A
+Updating DV matrix at node B
+No change in DV at node B
+
+Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+No change in DV at node E
+
+------------------------------
+Round 17:B
+Current DV matrix = {'A': 2, 'C': 5, 'B': 0, 'D': 4, 'E': 3}
+Last DV matrix = {'A': 2, 'C': 5, 'B': 0, 'D': 4, 'E': 3}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+No change in DV at node A
+
+Sending DV to node C
+Node C received DV from B
+Updating DV matrix at node C
+No change in DV at node C
+
+------------------------------
+Round 18:C
+Current DV matrix = {'B': 5, 'D': 4, 'A': 6, 'C': 0, 'E': 5}
+Last DV matrix = {'B': 5, 'D': 4, 'A': 6, 'C': 0, 'E': 5}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node B
+Node B received DV from C
+Updating DV matrix at node B
+No change in DV at node B
+
+Sending DV to node D
+Node D received DV from C
+Updating DV matrix at node D
+No change in DV at node D
+
+----------------------------------
+Final output
+Node A DV = {'A': 0, 'B': 2, 'C': 6, 'D': 2, 'E': 1}
+Node B DV = {'A': 2, 'B': 0, 'C': 5, 'D': 4, 'E': 3}
+Node C DV = {'A': 6, 'B': 5, 'C': 0, 'D': 4, 'E': 5}
+Node D DV = {'A': 2, 'B': 4, 'C': 4, 'D': 0, 'E': 1}
+Node E DV = {'A': 1, 'B': 3, 'C': 5, 'D': 1, 'E': 0}
+Number of rounds till convergence = 13
+#Round number when one of the nodes last updated its DV: 9
+
+
+C:\Users\Wenjie\Downloads>py DVR.py
+Please enter your file name: test2.txt
+------------------------------
+Round 1:A
+Current DV matrix = {'B': 10, 'C': 10, 'D': 10, 'E': 10, 'A': 0}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV matrix at node B = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+
+Sending DV to node C
+Node C received DV from A
+Updating DV matrix at node C
+New DV matrix at node C = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+
+Sending DV to node D
+Node D received DV from A
+Updating DV matrix at node D
+New DV matrix at node D = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+
+Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+New DV matrix at node E = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+
+------------------------------
+Round 2:B
+Current DV matrix = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+No change in DV at node A
+
+------------------------------
+Round 3:C
+Current DV matrix = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from C
+Updating DV matrix at node A
+No change in DV at node A
+
+------------------------------
+Round 4:D
+Current DV matrix = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from D
+Updating DV matrix at node A
+No change in DV at node A
+
+------------------------------
+Round 5:E
+Current DV matrix = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+Last DV matrix = None
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from E
+Updating DV matrix at node A
+No change in DV at node A
+
+------------------------------
+Round 6:A
+Current DV matrix = {'B': 10, 'C': 10, 'D': 10, 'E': 10, 'A': 0}
+Last DV matrix = {'B': 10, 'C': 10, 'D': 10, 'E': 10, 'A': 0}
+Updated from last DV matrix or the same? Not update
+
+Node B received DV from A
+Sending DV to node B
+Updating DV matrix at node B
+No change in DV at node B
+
+Node C received DV from A
+Sending DV to node C
+Updating DV matrix at node C
+No change in DV at node C
+
+Sending DV to node D
+Node D received DV from A
+Updating DV matrix at node D
+No change in DV at node D
+
+Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+No change in DV at node E
+
+------------------------------
+Round 7:B
+Current DV matrix = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+Last DV matrix = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+Updated from last DV matrix or the same? Not update
+
+Node A received DV from B
+Updating DV matrix at node A
+Sending DV to node A
+No change in DV at node A
+
+------------------------------
+Round 8:C
+Current DV matrix = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+Last DV matrix = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+Updated from last DV matrix or the same? Not update
+
+Node A received DV from C
+Sending DV to node A
+Updating DV matrix at node A
+No change in DV at node A
+
+------------------------------
+Round 9:D
+Current DV matrix = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+Last DV matrix = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node A
+Node A received DV from D
+Updating DV matrix at node A
+No change in DV at node A
+
+------------------------------
+Round 10:E
+Current DV matrix = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+Last DV matrix = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+Updated from last DV matrix or the same? Not update
+
+Sending DV to node A
+Node A received DV from E
+Updating DV matrix at node A
+No change in DV at node A
+
+----------------------------------
+Final output
+Node A DV = {'A': 0, 'B': 10, 'C': 10, 'D': 10, 'E': 10}
+Node B DV = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+Node C DV = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+Node D DV = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+Node E DV = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+Number of rounds till convergence = 5
+#Round number when one of the nodes last updated its DV: 1
